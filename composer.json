@@ -1,0 +1,15 @@
+{
+    "name": "app/backend",
+    "autoload": {
+        "psr-4": {
+            "App\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kani-a",
+            "email": "allanchagasilva@gmail.com"
+        }
+    ],
+    "require": {}
+}
