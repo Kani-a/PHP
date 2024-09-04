@@ -28,6 +28,8 @@ switch($method){
         switch($uri){
             case '/users';
                 $data = json_decode(file_get_contents('php://input'),true);
+                // $users = new controler();
+                $resposta = $users->insert
                 http_response_code[200];
                 echo json_encode(['stauts' => true,'message' => 'receita com sucesso','dado' => $data]);
                 break;
